@@ -1,0 +1,38 @@
+
+.prodBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: start;
+    gap: 3vmax;
+    padding-left: 2vmax;
+    padding-top: 1.5vmax;
+}
+
+.prodImg{
+    width: 10vmax;
+}
+
+.singleProdBox{
+    background-color: rgb(239, 239, 239);
+    width: 27vw;
+    border-radius: 10px;
+    line-height: 2vmax;
+    padding: 1.2vmax;
+    
+}
+
+.addCart{
+   background-color: rgb(56, 202, 93);
+   border: 0;
+   padding: 0.5vmax 11vmax;
+   color: white;
+   border-radius: 1vmax;
+}
+.removeCart{
+   background-color: tomato;
+   border: 0;
+   padding: 0.5vmax 9.65vmax;
+   color: white;
+   border-radius: 1vmax;
+}
